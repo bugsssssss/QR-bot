@@ -1,0 +1,8 @@
+version: '3'
+services:
+  bot:
+    build:
+      context: .
+    environment:
+      - BOT_TOKEN=6477791775:AAE4rx2kyAvLifb51aSYeSxzJKw6hd209cg
+    restart: unless-stopped

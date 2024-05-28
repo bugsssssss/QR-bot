@@ -4,5 +4,5 @@ services:
     build:
       context: .
     environment:
-      - BOT_TOKEN=6477791775:AAE4rx2kyAvLifb51aSYeSxzJKw6hd209cg
+      - BOT_TOKEN=7122686475:AAGDOXyAT_HRjv3J5OT0QaR-kztUKO_wk_s
     restart: unless-stopped

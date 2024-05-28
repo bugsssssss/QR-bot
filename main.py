@@ -3,12 +3,12 @@ from PIL import Image
 import qrcode
 import json
 import datetime
-import cv2
 from telebot import types
-from config import token
+
+TOKEN = "6900424648:AAH8XASmWfcqtqb-UEgmy6yPi3k5Y5HvtYQ"
 
 
-bot = telebot.TeleBot(token=token)
+bot = telebot.TeleBot(token=TOKEN)
 user_data = []
 assert_colors = []
 all_colors = {}
